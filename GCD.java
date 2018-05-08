@@ -44,10 +44,6 @@ public class GCD {
 
     public static int gcd(int m, int n) {
 
-        if (m>=n)
             return n == 0 ? m : gcd(n, m % n);
-
-        else
-            return m == 0 ? n : gcd(n % m, m);
     }
 }
